@@ -1,11 +1,12 @@
 .aplayer {
-    background: rgb(174, 145, 194);
+    background: transparent;
+    bottom: 70px !important;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
     border-radius: 2px;
     overflow: hidden;
-    backdrop-filter: blur(10px) saturate(180%) !important;
+    /* backdrop-filter: blur(10px) saturate(180%) !important; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -653,7 +654,7 @@
     overflow: hidden;
     color: #fff;
     pointer-events: none;
-    background-color: #f4f4f5;
+    background-color: #be9ff0ad;
     color: #909399
 }
 
